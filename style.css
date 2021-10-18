@@ -1,0 +1,48 @@
+body{
+    background-image: linear-gradient( rgba(0,0,0,0.7),rgba(0,0,0,0.7) ),url(https://utechalumni.files.wordpress.com/2020/06/pexels-photo-3740398.jpeg);
+    height: 100vh;
+    -webkit-box-size:cover ;
+    background-size: cover;
+    background-position: center center;
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.navbar-brand{
+    font-family: big john;
+}
+.nav-link{
+    font-family: poppins;
+}
+.banner-text p{
+    font-family: poppins;
+    color: #fff;
+}
+.banner-btn a{
+    border: 1px solid #fff;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 50px;
+    display: inline-block;
+    margin-top: 15px;
+    color: #fff;
+}
+.banner-btn a.active{
+    background: #fed136;
+    border-color: #0f0f0f;
+    color: #000;
+}
+.text-area{
+    font-size: 65px;
+    font-family: roboto;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.text-area span{
+    color: #fed136;
+}
